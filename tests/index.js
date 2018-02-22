@@ -2,6 +2,7 @@ describe('Chapter 1: Arrays and Strings', function() {
 
   require('./01 Arrays & Strings/1.1 isUnique.test.js');
   require('./01 Arrays & Strings/1.2 Check Permutation.test.js');
+  require('./01 Arrays & Strings/1.3 URLify.test.js');
 
 });
 
