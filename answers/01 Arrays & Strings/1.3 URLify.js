@@ -5,7 +5,7 @@
 // EXAMPLE
 // Input: "Mr John Smith " J 13 Output: "Mr%20John%20Smith"
 
-const URLify = function (str) {
+const URLify = function (strArr, length) {
 
 };
 
