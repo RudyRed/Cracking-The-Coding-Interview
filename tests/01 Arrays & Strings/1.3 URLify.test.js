@@ -3,13 +3,13 @@ const expect = require('chai').expect;
 describe('URLify', () => {
   const { URLify } = require('../../answers/01 Arrays & Strings/1.3 URLify.js');
 
+  it('should return type string', () => {
+    expect(URLify('Mr John Smith    ', 13)).to.be.a('string');
+    expect(URLify('', 0)).to.be.a('string');
+  });
+
     it('should handle empty string', () => {
       expect(URLify('', 0)).to.equal('');
-    });
-
-    it('should return type string', () => {
-      expect(URLify('Mr John Smith    ', 13)).to.be.a('string');
-      expect(URLify('', 0)).to.be.a('string');
     });
 
     it('should URLify String', () => {
