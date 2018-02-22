@@ -6,7 +6,21 @@
 // Input: "Mr John Smith " J 13 Output: "Mr%20John%20Smith"
 
 const URLify = function (strArr, length) {
+  strArr = strArr.split``; // test were easier to write as strings, array is required becuase in Javascript strigns are immutable
+  let nextInsertIndex = strArr.length - 1;
+  let i = length;
 
+  while (--i < nextInsertIndex) {
+    if (strArr[i] === ' ') {
+      strArr[nextInsertIndex--] = '0';
+      strArr[nextInsertIndex--] = '2';
+      strArr[nextInsertIndex--] = '%';
+    } else {
+      strArr[nextInsertIndex--] = strArr[i];
+    }
+  }
+
+  return strArr.join``;
 };
 
 module.exports = {
