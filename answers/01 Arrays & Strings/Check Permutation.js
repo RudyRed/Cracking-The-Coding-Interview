@@ -23,6 +23,6 @@ const checkIfPermutation = function (s1, s2) {
   return true;
 };
 
-console.log(checkIfPermutation('aaabbb', 'ababab'));
-console.log(checkIfPermutation('aaabbb', 'abababc'));
-console.log(checkIfPermutation('aaabbb', 'ababa'));
+module.exports = {
+  checkIfPermutation,
+};

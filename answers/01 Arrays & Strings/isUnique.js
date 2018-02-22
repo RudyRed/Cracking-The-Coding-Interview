@@ -9,9 +9,10 @@ const isUnique = function (str) {
   for (let i = 0; i < str.length; i++) {
     if (str.lastIndexOf(str[i]) !== i) return false;
   }
-  
+
   return true;
 };
 
-console.log(isUnique('qwertyuiopsdfgh'));
-console.log(isUnique('wqertyuimt'));
+module.exports = {
+  isUnique,
+};
