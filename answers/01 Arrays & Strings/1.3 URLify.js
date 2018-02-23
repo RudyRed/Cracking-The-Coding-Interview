@@ -6,7 +6,7 @@
 // Input: "Mr John Smith " J 13 Output: "Mr%20John%20Smith"
 
 const URLify = function (strArr, length) {
-  strArr = strArr.split``; // test were easier to write as strings, array is required becuase in Javascript strigns are immutable
+  //  array is required becuase in Javascript strings are immutable
   let nextInsertIndex = strArr.length - 1;
   let i = length;
 
@@ -20,7 +20,7 @@ const URLify = function (strArr, length) {
     }
   }
 
-  return strArr.join``;
+  return strArr;
 };
 
 module.exports = {
