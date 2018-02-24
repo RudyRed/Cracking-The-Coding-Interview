@@ -9,7 +9,37 @@
 
 
 const palinPerm = function (str) {
+  const letterCount = {};
 
+  for (let i = 0; i < str.length; i++) {
+    const letter = str[i];
+    if (letterCount[letter]) {
+      letterCount[letter]++;
+    } else {
+      letterCount[letter] = 1;
+    }
+  }
+
+  let oddValFlag = true; // if the string can handle an odd frequency letter
+
+  if (str.length % 2 === 0) { // even length can not handle an odd frequency letter
+    oddValFlag = false;
+  }
+
+  for (let letter in letterCount) {
+    const frequency = letterCount[letter];
+
+    if (frequency % 2) {
+      if (oddValFlag) {
+        oddValFlag = false;
+      } else {
+        return false;
+      }
+    }
+
+  }
+
+  return true;
 };
 
 module.exports = {

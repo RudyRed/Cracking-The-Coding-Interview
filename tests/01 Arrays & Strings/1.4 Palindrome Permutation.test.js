@@ -5,7 +5,7 @@ describe('Palinrome Permutation', () => {
 
   it('should return a boolean', () => {
     expect(palinPerm('abcd')).to.be.a('boolean');
-    expect(palinPerm('rraacce')[0]).to.be.a('boolean');
+    expect(palinPerm('rraacce')).to.be.a('boolean');
   });
 
   it('should handle empty string', () => {
@@ -15,6 +15,7 @@ describe('Palinrome Permutation', () => {
   it('should return true for even length possible palindromes', () => {
     expect(palinPerm('abcabc')).to.be.true;
     expect(palinPerm('eekkaallii')).to.be.true;
+    expect(palinPerm('aa')).to.be.true;
   });
 
   it('should return false for even length non-palindromes', () => {
@@ -25,6 +26,7 @@ describe('Palinrome Permutation', () => {
   it('should return true for odd length possible palindromes', () => {
     expect(palinPerm('rraacce')).to.be.true;
     expect(palinPerm('tocatac')).to.be.true;
+    expect(palinPerm('a')).to.be.true;
   });
 
   it('should return false for odd length non-palindromes', () => {
