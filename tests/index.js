@@ -15,5 +15,6 @@ describe('Chapter 1: Arrays and Strings', function() {
 describe('Chapter 2: Linked Lists', function() {
 
   require('./02 Linked Lists/2.1 Remove Dups.test.js');
+  require('./02 Linked Lists/2.2 Return Kth to Last.test.js');
 
 });
