@@ -7,6 +7,7 @@ describe('Chapter 1: Arrays and Strings', function() {
   require('./01 Arrays & Strings/1.5 One Away.test.js');
   require('./01 Arrays & Strings/1.6 String Compression.test.js');
   require('./01 Arrays & Strings/1.7 Rotate Matrix.test.js');
+  require('./01 Arrays & Strings/1.8 Zero Matrix.test.js');
 
 });
 
