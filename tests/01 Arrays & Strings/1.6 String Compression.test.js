@@ -2,6 +2,7 @@ const expect = require('chai').expect;
 
 describe('String Compression', () => {
   const { strComp } = require('../../answers/01 Arrays & Strings/1.5 One Away.js');
+
   it('should return a string', () => {
     expect(strComp('aaabbbccc')).to.be.a('string');
     expect(strComp('abc')).to.be.a('string');
@@ -23,4 +24,5 @@ describe('String Compression', () => {
     expect(strComp('a')).to.equal('a');
     expect(strComp('aabbccca')).to.equal('aabbccca');
   });
+  
 });
