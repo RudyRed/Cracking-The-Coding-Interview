@@ -15,7 +15,7 @@ describe('Rotate Matrix', () => {
 });
 
 it('should handle empty Array', () => {
-  expect(rotateMatrix([])).to.eql.([]);
+  expect(rotateMatrix([])).to.eql([]);
 });
 
   it ('should rotate an NxN Matrix (even length)', () => {
