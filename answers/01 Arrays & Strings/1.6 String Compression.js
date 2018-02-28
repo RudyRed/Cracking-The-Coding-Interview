@@ -5,7 +5,25 @@
 // the string has only uppercase and lowercase letters (a - z).
 
 const strComp = function (str) {
+  if (str.length < 3) return str;
+  let compStr = '';
+  let currLetterCount = 1;
+  let currLetter = str[0];
 
+  for (let i = 1; i < str.length; i++) {
+
+    if (str[i] === currLetter) {
+      currLetterCount++;
+    } else {
+      compStr += currLetter + currLetterCount;
+      currLetterCount = 1;
+      currLetter = str[i];
+    }
+
+  }
+  compStr += currLetter + currLetterCount;
+
+  return compStr.length < str.length ? compStr : str;
 };
 
 module.exports = {
