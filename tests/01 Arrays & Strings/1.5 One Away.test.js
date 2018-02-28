@@ -23,9 +23,11 @@ describe('One Away', () => {
   });
 
   it('should return true one away replacement', () => {
-    expect(oneAway('pale', 'psle')).to.be.true;
+    expect(oneAway('ple', 'pale')).to.be.true;
     expect(oneAway('hello', 'jello')).to.be.true;
     expect(oneAway('last', 'lase')).to.be.true;
+    expect(oneAway('last', 'las')).to.be.true;
+    expect(oneAway('ast', 'last')).to.be.true;
   });
 
   it('should return true for same strings', () => {
@@ -38,6 +40,8 @@ describe('One Away', () => {
     expect(oneAway('pale', 'bake')).to.be.false;
     expect(oneAway('hello', 'ellor')).to.be.false;
     expect(oneAway('alast', 'las')).to.be.false;
+    expect(oneAway('ple', 'pswe')).to.be.false;
+    expect(oneAway('pale', 'elap')).to.be.false;
   });
 
 });
