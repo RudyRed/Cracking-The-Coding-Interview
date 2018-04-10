@@ -1,4 +1,4 @@
-describe('Chapter 1: Arrays and Strings', function() {
+describe('Chapter 1: Arrays and Strings', () => {
 
   require('./01 Arrays & Strings/1.1 isUnique.test.js');
   require('./01 Arrays & Strings/1.2 Check Permutation.test.js');
@@ -12,7 +12,7 @@ describe('Chapter 1: Arrays and Strings', function() {
 
 });
 
-describe('Chapter 2: Linked Lists', function() {
+describe('Chapter 2: Linked Lists', () => {
 
   require('./02 Linked Lists/2.1 Remove Dups.test.js');
   require('./02 Linked Lists/2.2 Return Kth to Last.test.js');
@@ -22,5 +22,11 @@ describe('Chapter 2: Linked Lists', function() {
   require('./02 Linked Lists/2.6 Palindrome.test.js');
   require('./02 Linked Lists/2.7 Intersection.test.js');
   require('./02 Linked Lists/2.8 Loop Detection.test.js');
+
+});
+
+describe('Chapter 3: Stacks & Queues', () => {
+
+  require('./03 Stacks & Queues/3.1 Three in One.test.js');
 
 });
