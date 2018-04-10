@@ -19,5 +19,6 @@ describe('Chapter 2: Linked Lists', function() {
   require('./02 Linked Lists/2.3 Delete Middle Node.test.js');
   require('./02 Linked Lists/2.4 Partition.test.js');
   require('./02 Linked Lists/2.5 Sum Lists.test.js');
+  require('./02 Linked Lists/2.6 Palindrome.test.js');
 
 });
