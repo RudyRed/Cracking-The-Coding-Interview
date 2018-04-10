@@ -28,5 +28,6 @@ describe('Chapter 2: Linked Lists', () => {
 describe('Chapter 3: Stacks & Queues', () => {
 
   require('./03 Stacks & Queues/3.1 Three in One.test.js');
+  require('./03 Stacks & Queues/3.2 Stack Min.test.js');
 
 });
