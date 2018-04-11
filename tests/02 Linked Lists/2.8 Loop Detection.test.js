@@ -38,6 +38,4 @@ describe('Loop Detection', () => {
       expect(findStartOfLoop(this.list.head)).to.equal(node);
     });
 
-  });
-
 });
