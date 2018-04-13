@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const funcs = require('../../answers/04 Trees & Graphs/4.1 Route Between Nodes.js');
+const funcs = require('../../answers/04 Trees & Graphs/4.2 Minimal Tree.js');
 const { isBalanced } = require('./Helpers.js');
 
 
