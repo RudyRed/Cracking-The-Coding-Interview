@@ -35,3 +35,9 @@ describe('Chapter 3: Stacks & Queues', () => {
   require('./03 Stacks & Queues/3.6 Animal Shelter.test.js');
 
 });
+
+describe('Chapter 4: Trees & Graphs', () => {
+
+  require('./04 Trees & Graphs/4.1 Route Between Nodes.test.js');
+
+});
