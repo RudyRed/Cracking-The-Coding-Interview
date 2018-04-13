@@ -32,5 +32,6 @@ describe('Chapter 3: Stacks & Queues', () => {
   require('./03 Stacks & Queues/3.3 Stack of Plates.test.js');
   require('./03 Stacks & Queues/3.4 Queue via Stacks.test.js');
   require('./03 Stacks & Queues/3.5 Sort Stack.test.js');
+  require('./03 Stacks & Queues/3.6 Animal Shelter.test.js');
 
 });
