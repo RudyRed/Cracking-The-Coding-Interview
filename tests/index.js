@@ -41,5 +41,6 @@ describe('Chapter 4: Trees & Graphs', () => {
   require('./04 Trees & Graphs/4.1 Route Between Nodes.test.js');
   require('./04 Trees & Graphs/4.2 Minimal Tree.test.js');
   require('./04 Trees & Graphs/4.3 List of Depths.test.js');
+  require('./04 Trees & Graphs/4.4 Check Balanced.test.js');
 
 });
