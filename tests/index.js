@@ -46,5 +46,6 @@ describe('Chapter 4: Trees & Graphs', () => {
   require('./04 Trees & Graphs/4.6 Successor.test.js');
   require('./04 Trees & Graphs/4.7 Build Order.test.js');
   require('./04 Trees & Graphs/4.8 First Common Ancestor.test.js');
+  require('./04 Trees & Graphs/4.9 BST Sequences.test.js');
 
 });
