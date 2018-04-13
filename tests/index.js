@@ -49,5 +49,6 @@ describe('Chapter 4: Trees & Graphs', () => {
   require('./04 Trees & Graphs/4.9 BST Sequences.test.js');
   require('./04 Trees & Graphs/4.10 Check Subtree.test.js');
   require('./04 Trees & Graphs/4.11 Random Node.test.js');
+  require('./04 Trees & Graphs/4.12 Paths with Sum.test.js');
 
 });
