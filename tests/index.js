@@ -43,5 +43,6 @@ describe('Chapter 4: Trees & Graphs', () => {
   require('./04 Trees & Graphs/4.3 List of Depths.test.js');
   require('./04 Trees & Graphs/4.4 Check Balanced.test.js');
   require('./04 Trees & Graphs/4.5 Validate BST.test.js');
+  require('./04 Trees & Graphs/4.6 Successor.test.js');
 
 });
