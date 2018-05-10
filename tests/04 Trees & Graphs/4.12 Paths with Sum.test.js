@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const classes = require('../../answers/04 Trees & Graphs/4.12 Paths with Sum.js');
+const funcs = require('../../answers/04 Trees & Graphs/4.12 Paths with Sum.js');
 const { Tree } = require('./Helpers.js');
 
 
